@@ -1,0 +1,18 @@
+.loginBlcok{
+ margin: 15% 25%;
+ background-color: #b9c2d2;
+ /* border: 1px solid black; */
+ box-shadow: coral 1;
+ border-radius: 10px;
+}
+
+.labelInputStyling{
+    padding: 5px;
+}
+
+.loginHead{
+    /* justify-content: "center"; */
+    /* align-items: "center/"; */
+    text-align: center;
+    padding-top: 10px;
+}

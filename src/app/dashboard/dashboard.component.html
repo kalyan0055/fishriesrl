@@ -1,0 +1,9 @@
+<app-header></app-header>
+<app-top-menu (leftMenu)="changeMenu($event)"></app-top-menu>
+<app-fish-section></app-fish-section>
+<app-customers *ngIf="menu =='customers'"></app-customers>
+<app-orders *ngIf="menu==='orders'"></app-orders>
+<app-returns *ngIf="menu==='returns'"></app-returns>
+<app-footer></app-footer>
+
+ 

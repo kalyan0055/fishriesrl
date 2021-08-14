@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "recall-angular"
+    }
+  },
+  "defaultProject": "recall-angular",
+  "cli": {
+    "analytics": "f30785d7-36ef-44c0-a03c-ca5232b89cd1"
+  }
 }

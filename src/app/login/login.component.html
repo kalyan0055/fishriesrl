@@ -1,0 +1,17 @@
+<div class="container ">
+  
+   <div class="row loginBlcok">
+    <div class="loginHead"><h4>Login Here</h4> </div>
+ 
+    <form class="form-group " [formGroup]="loginForm">
+       <div class="labelInputStyling"><label>Username</label></div>
+       <div class="labelInputStyling"><input type="text" required name="Username" class="form-control" formControlName="username"/></div>
+       <div class="labelInputStyling"><label>Password</label></div>
+       <div class="labelInputStyling"><input type="password"  required name="Password" class="form-control" formControlName="password"/></div>
+       <div>
+          <button style="float: right;background-color: blue;" class="btn btn-sm-info" [disabled]="!loginForm.valid" (click)="login()">Login</button>
+       </div>
+    </form>
+   </div>
+
+  </div>
