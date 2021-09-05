@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  devDomain :'http://localhost:3000/'
+  devDomain :'http://localhost:3000/',
+  herokuDomain :'https://fishriesrl.herokuapp.com/'
 };
 
 /*
