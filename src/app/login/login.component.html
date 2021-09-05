@@ -1,16 +1,26 @@
-<div class="container ">
+<div class="container container-new">
   
    <div class="row loginBlcok">
     <div class="loginHead"><h4>Login Here</h4> </div>
  
     <form class="form-group " [formGroup]="loginForm">
-       <div class="labelInputStyling"><label>Username</label></div>
-       <div class="labelInputStyling"><input type="text" required name="Username" class="form-control" formControlName="username"/></div>
-       <div class="labelInputStyling"><label>Password</label></div>
-       <div class="labelInputStyling"><input type="password"  required name="Password" class="form-control" formControlName="password"/></div>
-       <div>
-          <button style="float: right;background-color: blue;" class="btn btn-sm-info" [disabled]="!loginForm.valid" (click)="login()">Login</button>
-       </div>
+       <!-- <div class="labelInputStyling"></div> -->
+       <div class="labelInputStyling">
+          <div class="lables"><label>Username</label></div>
+          <div><input type="text" required name="Username" class="form-control" formControlName="username"/></div>
+         </div>
+         <div class="labelInputStyling">
+            <div class="lables"><label>Password</label></div>
+            <div>
+               <input type="password"  required name="Password" class="form-control" formControlName="password"/>
+            </div>
+           </div>
+         <div class="loginbtn"> 
+            <button  class="btn btn-sm-info" [disabled]="!loginForm.valid" (click)="login()">Login</button>
+         </div>
+         <!-- <div class="labelInputStyling"></div> -->
+       <!-- <div class="labelInputStyling"></div> -->
+       
     </form>
    </div>
 

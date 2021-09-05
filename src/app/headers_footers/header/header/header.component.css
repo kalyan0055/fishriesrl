@@ -1,0 +1,11 @@
+.detail-box > img {
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (max-width:500px){
+    .detail-box > img {
+        height: 250px;
+    }
+    
+}

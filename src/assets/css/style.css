@@ -480,8 +480,10 @@ a:focus {
 }
 
 .veg_section .box .img-box img {
-  max-width: 175px;
-  max-height: 175px;
+  max-width: 300px;
+  max-height: 300px;
+  /* max-width: 175px;
+  max-height: 175px; */
 }
 
 .veg_section .box .detail-box {
